@@ -1,4 +1,4 @@
-import {Table,Title,String,Tbody} from '../styled/Table'
+import {Table,Title,String,Tbody} from './Table'
 
 
 

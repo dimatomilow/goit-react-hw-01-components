@@ -1,5 +1,5 @@
 
-import {FriendListStyle,Item,Status} from '../styled/FriendListStyle'
+import {FriendListStyle,Item,Status} from './FriendListStyle'
 const FriendList = ({friends}) => {
     return (<FriendListStyle>
     {friends.map(({id,isOnline,avatar,name}) => (

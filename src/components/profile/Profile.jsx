@@ -1,11 +1,11 @@
 import {List} from '../styled/List'
 
-import {ProfileStyle,Stats,TitleStats,ValueStats} from '../styled/ProfileStyles'
+import {ProfileStyle,Stats,TitleStats,ValueStats,Images} from './ProfileStyles'
 const Profile = (props) => {
     return (
 <ProfileStyle >
     <div >
-    <img src={props.avatar }
+    <Images src={props.avatar }
      alt="User avatar"  width="200"/>
    <h1 >{props.username }</h1>
    <p >{ props.tag}</p>

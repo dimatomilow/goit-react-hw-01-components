@@ -1,8 +1,10 @@
-import {List,Item,Span} from '../styled/List'
+import {List,Item,Span,Title} from '../styled/List'
 
-const Statistics = ({stats}) => {
-    return (<section>
-    <List >
+const Statistics = ({stats,title}) => {
+  return (<section>
+      <Title>{ title}</Title>
+      <List >
+
    {stats.map(dat =>(<Item key={dat.id}>
   <Span>{ dat.label}</Span>
   <Span>{ dat.percentage}</Span>
